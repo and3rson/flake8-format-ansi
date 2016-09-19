@@ -16,7 +16,7 @@ class ANSIFormatExtension(object):
     name = __name__.replace('_', '-')
     version = __version__
 
-    def __init__(self):
+    def __init__(self, options):
         """Constructor."""
         # Must exist for flake8 inspection of the extension
         pass
